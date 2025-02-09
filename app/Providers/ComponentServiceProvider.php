@@ -27,5 +27,13 @@ class ComponentServiceProvider extends ServiceProvider
         Blade::component('components.input.input', 'input');
         Blade::component('components.input.select', 'select');
         Blade::component('components.input.textarea', 'textarea');
+        // Table Components
+        Blade::component('components.table.table', 'table');
+        Blade::component('components.table.partials.tr', 'table-tr');
+        Blade::component('components.table.partials.td', 'table-td');
+        Blade::component('components.table.partials.th', 'table-th');
+        Blade::component('components.table.partials.thead', 'table-thead');
+        Blade::component('components.table.partials.tbody', 'table-tbody');
+        Blade::component('components.table.partials.action', 'table-action');
     }
 }
